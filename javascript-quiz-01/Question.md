@@ -8,8 +8,10 @@ let y = "Tigger";
 let z = y;
 y = x;
 x = z;
+
+TIGGER
 ```
-tigger
+TIGGER
 ---
  
 ###### Question 2:
@@ -65,16 +67,17 @@ otherwise output "Too young".
 function checkAge() {
 
 
-let Age = 19;
-
-if(Age >= 18){
-    return "Old enough"
-}
-else(Age < 18) {
-    return "Too young"
-}
-}
-console.log(checkAge);
+   let Age = 19;
+   
+   if(Age >= 18){
+       return "Old enough"
+   }
+   else (Age < 18)
+   {
+       return "Too young"
+   }
+   }
+   console.log(checkAge());
 
 ---
 ###### Question 5:
@@ -139,7 +142,7 @@ if (-1 || 0) alert( 'first' );
 if (-1 && 0) alert( 'second' );
 if (null || -1 && 1) alert( 'third' );
 ```
- second
+ FIRST AND THIRD
 ---
  
 ###### Question 8:
